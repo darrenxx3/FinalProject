@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Foodro</string>
+
+    <string-array name="selectroles">
+        <item>User</item>
+        <item>Admin</item>
+        <item>Merchant</item>
+    </string-array>
+</resources>

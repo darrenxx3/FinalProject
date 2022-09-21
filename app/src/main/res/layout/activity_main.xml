@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="0dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="WELCOME"
+            android:textColor="#FFFFFF"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="-100dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/logo_foodro_removebg" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="Get Started"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFFFFF" />
+
+</RelativeLayout>
